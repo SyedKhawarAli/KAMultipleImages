@@ -1,0 +1,15 @@
+{
+  "originHash" : "fb4e83b5bcaacd7367c1f1d5b09999fbdfdb0bb6a7f026d59b9e14a4fb1a747d",
+  "pins" : [
+    {
+      "identity" : "kamultipleimages",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SyedKhawarAli/KAMultipleImages.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f4acd7f2098d4bb43f900d8adaf0d235ae5e5681"
+      }
+    }
+  ],
+  "version" : 3
+}

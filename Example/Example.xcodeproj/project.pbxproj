@@ -14,6 +14,7 @@
 		71B698202BA1455F00D8E53D /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B6981F2BA1455F00D8E53D /* ExampleTests.swift */; };
 		71B6982A2BA1455F00D8E53D /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B698292BA1455F00D8E53D /* ExampleUITests.swift */; };
 		71B6982C2BA1455F00D8E53D /* ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B6982B2BA1455F00D8E53D /* ExampleUITestsLaunchTests.swift */; };
+		71B6983B2BA148D500D8E53D /* KAMultipleImages in Frameworks */ = {isa = PBXBuildFile; productRef = 71B6983A2BA148D500D8E53D /* KAMultipleImages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B6983B2BA148D500D8E53D /* KAMultipleImages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +81,7 @@
 				71B6981E2BA1455F00D8E53D /* ExampleTests */,
 				71B698282BA1455F00D8E53D /* ExampleUITests */,
 				71B6980B2BA1455D00D8E53D /* Products */,
+				71B698392BA148D500D8E53D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +132,13 @@
 			path = ExampleUITests;
 			sourceTree = "<group>";
 		};
+		71B698392BA148D500D8E53D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +155,9 @@
 			dependencies = (
 			);
 			name = Example;
+			packageProductDependencies = (
+				71B6983A2BA148D500D8E53D /* KAMultipleImages */,
+			);
 			productName = Example;
 			productReference = 71B6980A2BA1455D00D8E53D /* Example.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +230,9 @@
 				Base,
 			);
 			mainGroup = 71B698012BA1455D00D8E53D;
+			packageReferences = (
+				71B698382BA147F100D8E53D /* XCRemoteSwiftPackageReference "KAMultipleImages" */,
+			);
 			productRefGroup = 71B6980B2BA1455D00D8E53D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -617,6 +633,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71B698382BA147F100D8E53D /* XCRemoteSwiftPackageReference "KAMultipleImages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SyedKhawarAli/KAMultipleImages.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71B6983A2BA148D500D8E53D /* KAMultipleImages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71B698382BA147F100D8E53D /* XCRemoteSwiftPackageReference "KAMultipleImages" */;
+			productName = KAMultipleImages;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 71B698022BA1455D00D8E53D /* Project object */;
 }
