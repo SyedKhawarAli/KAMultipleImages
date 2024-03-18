@@ -13,7 +13,7 @@ public struct KAMultipleImages: View {
     
     public var body: some View {
         VStack {
-            GridImageView(images: viewModel.downloadedImages)
+            KAImagesView(images: viewModel.downloadedImages)
         }
         .padding()
     }
